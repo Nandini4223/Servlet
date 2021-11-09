@@ -1,0 +1,17 @@
+<web-app>
+<servlet>
+<servlet-name>serv1</servlet-name>
+<servlet-class>package com.servers.app2.servlet.ServletA</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>serv2</servlet-name>
+<servlet-class>package com.servers.app2.servlet.ServletB</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>serv1</servlet-name>
+<url-pattern>/s1</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>serv2</servlet-name>
+<url-pattern>/s2</url-pattern>
+</servlet-mapping>
